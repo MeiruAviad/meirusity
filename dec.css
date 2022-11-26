@@ -1,0 +1,124 @@
+
+body {
+  overflow: scroll; /* кнопка прокрутки */
+  width: 1800px; /* ширина сайта */
+  background-color: #eaf1ff; 
+  background-image: url(tumblr_6342f9451dcf7a588b09ccc8c0745418_29901e56_2048.gif);
+}
+
+
+
+.sidebar {
+  font-family: ms gothic;
+  box-sizing: border-box;
+  position: fixed;
+  margin-left: 550px;
+  margin-top: 64px;
+  width: 136px;
+  font-size: 11px;
+  margin-left: 1300px;
+  margin-top: 100px;
+}
+
+.window-border {
+  font-family: ms gothic;
+  font-size: 11px;
+  box-sizing: border-box;
+  margin-bottom: 48px;
+  margin-right: 48px;
+  width: 100%;
+  border: 1px solid #d0d0c8;
+  border-right-color: #404040;
+  border-bottom-color: #404040;
+}
+
+.window {
+  font-family: ms gothic;
+  font-size: 11px;
+  box-sizing: border-box;
+  background-color: #d0d0c8;
+  padding: 2px;
+  border: 1px solid #d0d0c8;
+  border-left-color: white;
+  border-top-color: white;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+}
+
+.title-bar {
+  font-family: ms gothic;
+  box-sizing: border-box;
+  background: linear-gradient(to right, #c5cbe3, #f1f5ff);
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1px;
+  overflow-y: hidden;
+  cursor: default;
+  min-height: 16px;
+}
+
+.title-bar-bittons {
+  font-family: ms gothic;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: default;
+  box-sizing: border-box;
+  float: right;
+  width: 50px;
+  height: 15px;
+  background-image: url('//static.tumblr.com/anzluor/Fgkolwea1/m56u7v9.png');
+  background-repeat: no-repeat;
+  background-position: -2px -33px;
+}
+
+.blog-description {
+  font-family: ms gothic;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  font-size: 11px;
+  word-wrap: break-word;
+  color: rgb(119, 97, 114);
+}
+
+.sidebar-links {
+  font-family: ms gothic;
+  font-size: 11px;
+  box-sizing: border-box;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 4px 0;
+}
+
+.button-border {
+  font-family: ms gothic;
+  font-size: 11px;
+  list-style-type: none;
+  box-sizing: border-box;
+  border: 1px solid #404040;
+  border-top-color: white;
+  border-left-color: white;
+  margin-bottom: 4px;
+  padding: 5px;
+  color: rgb(0, 16, 158);
+}
+
+
+li {
+  text-align: center;
+}
+
+.textsidebar {
+  margin-left: 5px;
+}
+
+center {
+  margin-top: 20px;
+}
+
+a :hover {
+  color: #6e7dff;
+}
+
